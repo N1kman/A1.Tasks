@@ -16,7 +16,7 @@ _____________________________________________________________________________
 числа), было решено использовать long, чтобы 4 октета не вызывали переполнений
 в ходе парсинга в число.
 
-Непосредственно функции конвертации IP реализованы в ![сервисе](task1/src/main/java/com/hil/task1/service/serviceGettingIP.java)
+Непосредственно функции конвертации IP реализованы в [сервисе](task1/src/main/java/com/hil/task1/service/serviceGettingIP.java)
 ______________________________________________________________________________
 
 Пояснения к заданию 2:
@@ -28,7 +28,7 @@ un = (1 / n!) * (1! + 2! + 3! + ... + n!) =
 Уже здесь можно заметить, что вопрос в задании составлен неверно.
 Выражение стремится к 1.
 
-Функция подсчета выражения находится ![здесь](task2/src/main/java/com/hil/task2/service/ServiceCountingExpression.java)
+Функция подсчета выражения находится [здесь](task2/src/main/java/com/hil/task2/service/ServiceCountingExpression.java)
 ______________________________________________________________________________
 
 Пояснения к заданию 3:
@@ -41,10 +41,10 @@ JobTitle - работа
 Department - департамент
 
 Следующей стадией будет создание сервиса для чтения файлов.
-![Путь](task3/src/main/java/com/hil/task3/service) к сервисам.
+[Путь](task3/src/main/java/com/hil/task3/service) к сервисам.
 
 Применим ООП и создадим два класса для работы с поставками и пользователями.
-![Классы](https://github.com/N1kman/A1.Tasks/tree/master/task3/src/main/java/com/hil/task3/entity)
+[Классы](https://github.com/N1kman/A1.Tasks/tree/master/task3/src/main/java/com/hil/task3/entity)
 
 Далее написан сервис для конвертации информации из файла в сущности.
 С полем Amount LC возникли проблемы. Формат float пишется через точку, 
@@ -74,7 +74,7 @@ CREATE TABLE posting (
 
 По запросу http://localhost:8080/api/saveToDBFromFile можно загрузить
 данные из двух файлов в базу данных.
-Этот и все необходимые Api можно увидеть в ![контроллере](task3/src/main/java/com/hil/task3/controller).
+Этот и все необходимые Api можно увидеть в [контроллере](task3/src/main/java/com/hil/task3/controller).
 
 Фильтр огранизован по дате поставки.
 
